@@ -5,7 +5,7 @@
   "homepage": "https://joechea-aupp.github.io/tttjs",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html --public-url /tttjs/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
